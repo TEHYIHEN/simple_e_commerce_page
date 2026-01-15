@@ -68,8 +68,5 @@ npm start
 
 ### Optional
 > [!TIP]
-> If Seed Sample Data needed
+> If Seed Sample Data needed  
 >npm run seed
-
-git clone https://github.com/your-username/pern-e-commerce.git
-cd pern-e-commerce
