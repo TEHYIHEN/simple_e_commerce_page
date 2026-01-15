@@ -45,7 +45,31 @@
 
 ### 1. Clone the Repo
 - Put the command line below:  
-git clone https://github.com/your-username/pern-e-commerce.git  
-cd pern-e-commerce  
+git clone https://github.com/TEHYIHEN/simple_e_commerce_page.git  
+cd pern-e-commerce  or your_created_folderName
+
+### 2. Backend Configuration
+- Create a .env file in the backend folder:  
+  
+PGUSER='your_owner'  
+PGPASSWORD='your_password'  
+PGHOST='ep-lively-field-a1y7t7pm-pooler.ap-southeast-1.aws.neon.tech'  
+PGDATABASE='neondb'  
+
+ARCJET_KEY=your_arcjet_key  
+ARCJET_ENV=development  
+
+NODE_ENV=production  
+
+### 3. Install & Build
+- Put the command line below:  
+npm run build   # Installs backend & frontend dependencies and builds frontend
+npm start
+
+### Optional
+> [!TIP]
+> If Seed Sample Data needed
+>npm run seed
+
 git clone https://github.com/your-username/pern-e-commerce.git
 cd pern-e-commerce
